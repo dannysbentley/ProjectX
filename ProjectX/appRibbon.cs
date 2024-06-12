@@ -20,10 +20,10 @@ namespace ProjectX
                 a.CreateRibbonTab("Project X");
 
                 // Create first panel "dwp | BIM Help"
-                RibbonPanel dwpHelpPanel = a.CreateRibbonPanel("Project X", "X | Project");
+                RibbonPanel projectX = a.CreateRibbonPanel("Project X", "X | Project");
 
                 // Add buttons to the first panel
-                CreateButton(dwpHelpPanel, "Project X", "Project X", assemblyPath, "ProjectX.CommandProjectX", "Image.png", assemblyDir);
+                CreateButton(projectX, "Project X", "Project X", assemblyPath, "ProjectX.CommandProjectX", "Image.png", assemblyDir);
             }
             catch (Exception ex)
             {
