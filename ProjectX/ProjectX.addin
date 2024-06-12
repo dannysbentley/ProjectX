@@ -1,0 +1,10 @@
+<RevitAddIns>
+	<AddIn Type="Application">
+	  <Name>Application ProjectX</Name>
+	  <Assembly>ProjectX.dll</Assembly>
+	  <FullClassName>ProjectX.appRibbon</FullClassName>
+	  <ClientId>5e7d320e-f05b-4a15-a861-833aa976d452</ClientId>
+	  <VendorId>design team</VendorId>
+	  <VendorDescription>Danny Bentley, team</VendorDescription>
+	</AddIn>
+</RevitAddIns>
